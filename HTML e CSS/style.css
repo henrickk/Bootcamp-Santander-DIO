@@ -1,6 +1,8 @@
 body {
   background: rgb(179, 178, 178);
   font-family: Verdana;
+  width: 700px;
+  margin: auto;
 }
 
 .photo {
@@ -44,10 +46,16 @@ a {
   margin: 0;
   margin-bottom: 15px;
   text-transform: capitalize;
+  text-align: justify;
 }
 
 .psot_img {
   margin-bottom: 15px;
+  width: 100%;
+}
+
+.imagem {
+  text-align: center;
 }
 
 .contacts_list {
