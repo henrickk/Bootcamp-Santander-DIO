@@ -23,6 +23,18 @@
       .wrap-reverse {
         flex-flow: row wrap-reverse;
       }
+      
+      .r-nowrap{
+        flex-flow: row-reverse nowrap;
+      }
+
+      .r-wrap{
+        flex-flow: row-reverse wrap;
+      }
+
+      .rr-wrap{
+        flex-flow: row-reverse wrap-reverse;
+      }
 
       .item {
         background-color: blueviolet;
@@ -63,6 +75,40 @@
       <div class="item">4</div>
       <div class="item">5</div>
       <div class="item">6</div>
+    </div>
+
+    <h1>row-reverse nowrap</h1>
+    <div class="flex-container r-nowrap">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+    </div>
+
+    <h1>row-reverse wrap</h1>
+    <div class="flex-container r-wrap">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+    </div>
+
+    <h1>row-reverse wrap-reverse</h1>
+    <div class="flex-container rr-wrap">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
     </div>
   </body>
 </html>
