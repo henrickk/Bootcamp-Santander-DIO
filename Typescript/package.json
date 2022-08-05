@@ -1,0 +1,17 @@
+{
+  "name": "dio-Typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no teste specified\" && exit 1"
+  },
+  "author": "Henrick Adrian",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
