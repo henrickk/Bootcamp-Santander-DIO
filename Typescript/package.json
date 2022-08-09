@@ -1,17 +1,19 @@
 {
-  "name": "dio-Typescript",
+  "name": "typescript",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "test": "echo \"Error: no teste specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "watch": "tsc --watch"
   },
-  "author": "Henrick Adrian",
-  "dependencies": {
-    "parcel-bundler": "^1.12.5"
-  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
   }
 }
